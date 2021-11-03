@@ -1,9 +1,9 @@
 html,
 body {
-  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow: hidden;
+  font-family: Roboto;
+
 }
 
 a {
@@ -11,6 +11,116 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+body {
+  background-color: #3a4a69;
 }
+
+.main-section {
+  background-color: #fff;
+  width: 1258px;
+  height: 620px;
+  margin-top: 70px;
+  margin-bottom: 80px;
+  margin-left: 180px;
+  display: grid;
+  grid-template-columns: 70px 1fr 1fr 70px;
+  grid-template-rows: 20% auto 1fr 1fr 1fr;
+  grid-gap: 1%;
+  grid-template-areas:  ;
+}
+
+#title {
+  font-family: Roboto;
+
+  margin-top: 43px;
+  justify-self: center;
+  text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+  
+
+  font-style: Bold;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0.285em;
+  justify-self: start;
+  text-align: left;
+}
+
+#title-info {
+  justify-self: center;
+  font-family: Roboto, normal;
+  font-size: 36px;
+}
+
+#nav-bar {
+  justify-self: center;
+}
+
+#title-main {
+  justify-self: center;
+  font-size: 43px;
+}
+
+
+  
+#years {
+  font-family: Roboto, normal;
+  font-size: 65px;
+  color: rgba(58, 84, 138, 0.87)
+}
+
+#img-div {
+  
+  /*justify-self: stretch;*/
+  
+  /*box-shadow: 5px 5px 10px grey*/
+ }
+Image {
+  border: 50px solid black;
+  }
+  
+#column1 {
+ grid-row: 1/5;
+ }
+
+#img-caption {
+  font-family: Roboto;
+  font-style: normal;
+  align-self: center;
+ }
+
+#column2 {
+  grid-row: 1/5;
+  grid-column: 4;
+ }
+
+ #nav-bar {
+  display: grid;
+  
+  justify-self: stretch;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#info{
+  justify-self: center;
+  align-self: center;
+  font-size: 24px;
+}
+
+#about{
+  justify-self: end;
+  align-self: center;
+  font-size: 24px;
+}
+
+  
+
+  
+ 
+ 
+
+
+
+
+
