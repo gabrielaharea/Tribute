@@ -39,8 +39,9 @@ const Home: NextPage = () => {
               </div>
               <div id="img-caption">Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.
               </div>
-              
+              <div id="box-arrow-s-1">
                 <a href="#section-2" type="image" id="arrow-input"></a>
+              </div>
               <div id="column2"></div>
             </div>
           </section>
@@ -49,14 +50,14 @@ const Home: NextPage = () => {
           {/*  Section page 2 */}   
           <section id="section-2">
             <div className="main-section-2">
-                <div id="text-1">
+                <div id="s-2-text-1">
                   <div id="box-blue-1">
                     <h3 id="title-1">March 25, 1914 Born in Cresco, Iowa</h3>
                   </div>
                   <p id="p-1">Norman Borlaug was born to Henry Oliver (1889–1971) and Clara (Vaala) Borlaug (1888–1972) on his grandparents' farm in Saude in 1914, the first of four children. His three sisters were Palma Lillian (Behrens; 1916–2004), Charlotte (Culbert; b. 1919) and Helen (b. 1921).</p>
                 </div>
                 <time id="year-1914">1914</time>
-                <div id="text-2">
+                <div id="s-2-text-2">
                   <div id="box-blue-2"><h3 id="title-2">1933 - Norman Bourlaug Admission to the Minnesota University</h3></div>
                   <p id="p-2">1933 - Norman Bourlaug leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the National Youth "Administration"</p>
                 </div>
@@ -69,8 +70,10 @@ const Home: NextPage = () => {
                 <div id="fotouniver">
                   <Image src="/univer.png" alt="univer" width={544} height={227}/>
                 </div>
-                <a href="#section-3" type="image" id="down-arrow-page-2"></a>
-                <a href="#section-1" type="image" id="top-arrow-page-2"></a>
+                <div id="box-arrow-s-2">
+                  <a href="#section-3" type="image" id="down-arrow-page-2"></a>
+                  <a href="#section-1" type="image" id="top-arrow-page-2"></a>
+                </div>
             </div>
           </section> 
           {/*  End page 2 */}
@@ -104,9 +107,10 @@ const Home: NextPage = () => {
                 <div id="fotoworkforest">
                   <Image src="/workforest.png" alt="workforestimage" width={544} height={227}/>
                 </div>
-                
-                <a href="#section-4" type="image" id="down-arrow-page-3"></a>
-                <a href="#section-2" type="image" id="top-arrow-page-3"></a>
+                <div id="box-arrow-s-3">
+                  <a href="#section-4" type="image" id="down-arrow-page-3"></a>
+                  <a href="#section-2" type="image" id="top-arrow-page-3"></a>
+                </div>
             </div>
           </section> 
           {/*  End page 3 */}
@@ -141,9 +145,10 @@ const Home: NextPage = () => {
                 <div id="fotomorewomen">
                   <Image src="/fotomorewomen.png" alt="fotomorewomen" width={544} height={227}/>
                 </div>
-                
-                <a href="#section-5" type="image" id="down-arrow-page-4"></a>
-                <a href="#section-3" type="image" id="top-arrow-page-4"></a>
+                <div id="box-arrow-s-4">
+                  <a href="#section-5" type="image" id="down-arrow-page-4"></a>
+                  <a href="#section-3" type="image" id="top-arrow-page-4"></a>
+                </div>
             </div>
           </section> 
           {/*  End page 4 */}
@@ -178,9 +183,12 @@ const Home: NextPage = () => {
                 <div id="fotospeaks">
                   <Image src="/FOTOWHENNBSPEAKS.png" alt="speaks" width={544} height={227}/>
                 </div>
-                
-                <a href="#section-6" type="image" id="down-arrow-page-5"></a>
-                <a href="#section-4" type="image" id="top-arrow-page-5"></a>
+
+                <div id="box-arrow-s-5"> 
+                  <a href="#section-6" type="image" id="down-arrow-page-5"></a>
+                  <a href="#section-4" type="image" id="top-arrow-page-5"></a>
+                </div>
+
             </div>
           </section> 
           {/*  End page 5 */}
