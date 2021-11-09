@@ -52,14 +52,14 @@ const Home: NextPage = () => {
             <div className="main-section-2">
                 <div id="s-2-text-1">
                   <div id="box-blue-1">
-                    <h3 id="title-1">March 25, 1914 Born in Cresco, Iowa</h3>
+                    <h3 className="text"id="title-1">March 25, 1914 Born in Cresco, Iowa</h3>
                   </div>
-                  <p id="p-1">Norman Borlaug was born to Henry Oliver (1889–1971) and Clara (Vaala) Borlaug (1888–1972) on his grandparents' farm in Saude in 1914, the first of four children. His three sisters were Palma Lillian (Behrens; 1916–2004), Charlotte (Culbert; b. 1919) and Helen (b. 1921).</p>
+                  <p className="text" id="p-1">Norman Borlaug was born to Henry Oliver (1889–1971) and Clara (Vaala) Borlaug (1888–1972) on his grandparents' farm in Saude in 1914, the first of four children. His three sisters were Palma Lillian (Behrens; 1916–2004), Charlotte (Culbert; b. 1919) and Helen (b. 1921).</p>
                 </div>
                 <time id="year-1914">1914</time>
                 <div id="s-2-text-2">
-                  <div id="box-blue-2"><h3 id="title-2">1933 - Norman Bourlaug Admission to the Minnesota University</h3></div>
-                  <p id="p-2">1933 - Norman Bourlaug leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the National Youth "Administration"</p>
+                  <div id="box-blue-2"><h3 className="text" id="title-2">1933 - Norman Bourlaug Admission to the Minnesota University</h3></div>
+                  <p  className="text" id="p-2">1933 - Norman Bourlaug leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the National Youth "Administration"</p>
                 </div>
                 <time id="year-1933">1933</time>
                 
