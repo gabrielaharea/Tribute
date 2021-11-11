@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/createEmotionCache.ts", "pages/theme.ts"  ],
+, "src/createEmotionCache.ts", "src/theme.ts"  ],
   "exclude": [
     "node_modules"
   ]

@@ -2,9 +2,9 @@
 import React, { useEffect, FC } from "react";
 import { AppProps } from 'next/app';
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import { theme } from "./theme";
+import { theme } from "../src/theme";
 import { EmotionCache } from "@emotion/cache";
-import createEmotionCache from './createEmotionCache';
+import createEmotionCache from '../src/createEmotionCache';
 import { CacheProvider } from "@emotion/react";
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
